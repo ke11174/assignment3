@@ -1,2 +1,6 @@
 ﻿  dicegame.c
+C:\Users\mzken\source\repos\dice-game\dice-game\dicegame.c(10,26): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+      C:\Users\mzken\source\repos\dice-game\dice-game\dicegame.c(10,26):
+      プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+  
   dice-game.vcxproj -> C:\Users\mzken\source\repos\dice-game\x64\Debug\dice-game.exe

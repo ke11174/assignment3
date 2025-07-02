@@ -6,14 +6,14 @@ int main() {
 	int sum;
 	char name[100];
 	printf("What is your name?\n>");
-	scanf("%s",name);
-	printf("Hello %s!\n",name);
+	scanf("%s", name);
+	printf("Hello name!\n", name);
 	printf("Rolling dice...\n");
 	printf("1: %d\n", number1);
 	printf("2: %d\n", number2);
 	sum = number1 + number2;
 	printf("Total value: %d\n", sum);
-	if (sum > 7) printf("%s won!\n",name);
-	else printf("%s lost!\n",name);
+	if (sum > 7) printf("You wom!\n");
+	else printf("You lost!\n");
 	return 0;
 }
